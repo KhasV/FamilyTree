@@ -1,0 +1,104 @@
+ PersonArchive.peopleList = new List<ObservableCollection<Person>>();
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+            PersonArchive.peopleList.Add(new ObservableCollection<Person>());
+
+
+
+            PersonArchive.peopleList[0].Add(new Person("Elizabeth ||", "Queen", true, "1926", 0));
+            PersonArchive.peopleList[0].Add(new Person("Philip", "Prince", false, "1921", 0));
+
+            PersonArchive.peopleList[1].Add(new Person("Charlz", "Prince", false, "1948", 1));
+            PersonArchive.peopleList[1].Add(new Person("Kamilla", "", true, "1947 ", 1));
+            PersonArchive.peopleList[1].Add(new Person("Diana", "", true, "1961", 1));
+
+            PersonArchive.peopleList[1].Add(new Person("Anna", "Princess", true, "1950", 1));
+            PersonArchive.peopleList[1].Add(new Person("Timiti", "Lorens ", false, "1955", 1));
+            PersonArchive.peopleList[1].Add(new Person("Mark", "Phillips", false, "1948", 1));
+
+            PersonArchive.peopleList[1].Add(new Person("Andrew", "Prince", false, "1960", 1));
+            PersonArchive.peopleList[1].Add(new Person("Sara", "", true, "1959", 1));
+
+            PersonArchive.peopleList[1].Add(new Person("Adward", "Prince", false, "1964", 1));
+            PersonArchive.peopleList[1].Add(new Person("Sophy", "", true, "1965", 1));
+
+            PersonArchive.peopleList[2].Add(new Person("William", "Prince", false, "1982", 2));
+            PersonArchive.peopleList[2].Add(new Person("Kathrin", "", true, "1982", 2));
+            PersonArchive.peopleList[2].Add(new Person("Henry", "Prince", false, "1984", 2));
+
+            PersonArchive.peopleList[2].Add(new Person("Pitter", "Phillips", false, "1977", 2));
+            PersonArchive.peopleList[2].Add(new Person("Otum", "Phillips", true, "1978", 2));
+
+            PersonArchive.peopleList[2].Add(new Person("Zara", "Phillips", true, "1981", 2));
+            PersonArchive.peopleList[2].Add(new Person("Mike", "Tindle", false, "1978", 2));
+
+            PersonArchive.peopleList[2].Add(new Person("Beatris", "Princess", true, "1988", 2));
+            PersonArchive.peopleList[2].Add(new Person("Evgenja", "Princess", true, "1990", 2));
+
+            PersonArchive.peopleList[2].Add(new Person("James", "Severn", false, "2007", 2));
+            PersonArchive.peopleList[2].Add(new Person("Luiza", "Vindzor", true, "2003", 2));
+
+            PersonArchive.peopleList[3].Add(new Person("Jordj", "Prince", false, "2013", 3));
+            PersonArchive.peopleList[3].Add(new Person("Savanna", "Phillips", true, "2010", 3));
+            PersonArchive.peopleList[3].Add(new Person("Isla", "Phillips", true, "2012", 3));
+
+            Guid root = Tree.initTree();
+
+            Tree.AddChild(root, PersonArchive.peopleList[0][0].id);
+            Tree.AddChild(root, PersonArchive.peopleList[0][1].id);
+
+            Tree.AddChild(PersonArchive.peopleList[0][0].id, PersonArchive.peopleList[1][0].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][0].id, PersonArchive.peopleList[1][1].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][0].id, PersonArchive.peopleList[1][2].id);
+
+            Tree.AddChild(PersonArchive.peopleList[0][0].id, PersonArchive.peopleList[1][3].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][3].id, PersonArchive.peopleList[1][4].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][3].id, PersonArchive.peopleList[1][5].id);
+
+            Tree.AddChild(PersonArchive.peopleList[0][0].id, PersonArchive.peopleList[1][6].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][6].id, PersonArchive.peopleList[1][7].id);
+
+            Tree.AddChild(PersonArchive.peopleList[0][0].id, PersonArchive.peopleList[1][8].id);
+            Tree.AddParthner(PersonArchive.peopleList[1][8].id, PersonArchive.peopleList[1][9].id);
+
+            Tree.AddChild(PersonArchive.peopleList[1][0].id, PersonArchive.peopleList[2][0].id);
+            Tree.AddParthner(PersonArchive.peopleList[2][0].id, PersonArchive.peopleList[2][1].id);
+            Tree.AddChild(PersonArchive.peopleList[1][0].id, PersonArchive.peopleList[2][2].id);
+
+            Tree.AddChild(PersonArchive.peopleList[1][3].id, PersonArchive.peopleList[2][3].id);
+            Tree.AddParthner(PersonArchive.peopleList[2][3].id, PersonArchive.peopleList[2][4].id);
+
+            Tree.AddChild(PersonArchive.peopleList[1][3].id, PersonArchive.peopleList[2][5].id);
+            Tree.AddParthner(PersonArchive.peopleList[2][4].id, PersonArchive.peopleList[2][6].id);
+
+            Tree.AddChild(PersonArchive.peopleList[1][6].id, PersonArchive.peopleList[2][7].id);
+            Tree.AddChild(PersonArchive.peopleList[1][6].id, PersonArchive.peopleList[2][8].id);
+
+            Tree.AddChild(PersonArchive.peopleList[1][6].id, PersonArchive.peopleList[2][9].id);
+            Tree.AddChild(PersonArchive.peopleList[1][6].id, PersonArchive.peopleList[2][10].id);
+
+            Tree.AddChild(PersonArchive.peopleList[2][0].id, PersonArchive.peopleList[3][0].id);
+            Tree.AddChild(PersonArchive.peopleList[2][3].id, PersonArchive.peopleList[3][1].id);
+            Tree.AddChild(PersonArchive.peopleList[2][3].id, PersonArchive.peopleList[3][2].id);

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyTree.About"
+             x:Name="AbPage">
+
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#FFFFFF">
+            <Label  x:Name="LabelAbout1" TextColor="#85d0cd" FontSize="Default" HorizontalOptions="CenterAndExpand"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.03, 250, 20 " AbsoluteLayout.LayoutFlags="PositionProportional" ></Label>
+            <Label Text="v 1.0.0" x:Name="LabelAbout4" FontSize="11" TextColor="Gray" HorizontalOptions="Center"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.08, 0.2, 20" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></Label>
+            <Image Source="tree3.png" x:Name="ImageTree"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.23, 0.4, 200" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></Image>
+            <Label  x:Name="LabelAbout2" FontSize="9" TextColor="Gray" HorizontalOptions="Center"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.65, 0.8, 55 " AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" ></Label>
+            <Image Source="xam.png" x:Name="ImageX"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.94, 0.2, 100" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></Image>
+            <Label Text="Copyright 2018" x:Name="LabelAbout3" FontSize="11" TextColor="Gray" HorizontalOptions="Center"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.98, 0.3, 15" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></Label>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

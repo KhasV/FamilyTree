@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FamilyTree"
+             x:Class="FamilyTree.MainPage"
+             Title="GreenTree"
+                  x:Name="masterPage">
+    <MasterDetailPage.Master >
+        <ContentPage Title="Tools" BackgroundColor="#85d0cd">
+            <ContentPage.Content>
+                <StackLayout x:Name="StackLayout1" Padding="5,30,5,5">
+                    <Label x:Name="Choose" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">  
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="home.png" HorizontalOptions="Start"></Image>
+                        <Button x:Name="btnMain" Clicked="Button3_Click" FontSize="15" HorizontalOptions="FillAndExpand"/>
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="home.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="options.png" HorizontalOptions="Start"></Image>
+                        <Button x:Name="btnOpt" Text="" Clicked="Button1_Click" FontSize="15" HorizontalOptions="FillAndExpand"/>
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="options.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="about.png" HorizontalOptions="Start"></Image>
+                        <Button x:Name="btnAbout" Clicked="Button2_Click" FontSize="15" HorizontalOptions="FillAndExpand"/>
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="about.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="search.png" HorizontalOptions="Start"></Image>
+                        <Button x:Name="Search"  Clicked="Search_Clicked" FontSize="15" HorizontalOptions="FillAndExpand"></Button>
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="search.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="CenterAndExpand">
+                   <!-- <Button x:Name="MesBtn" Text="Touch" Clicked="Button4_Click" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0"></Button> -->
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage></ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

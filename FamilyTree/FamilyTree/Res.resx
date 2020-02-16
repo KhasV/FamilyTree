@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ab1" xml:space="preserve">
+    <value>Welcome to the GreenTree App!</value>
+  </data>
+  <data name="ab2" xml:space="preserve">
+    <value>This application was created by Khasanova Varvara using the framework
+Xamarin.Forms, which aims to create cross-platform applications for Android, iOS and Windows 10.</value>
+  </data>
+  <data name="act1" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="act2" xml:space="preserve">
+    <value>Add Child</value>
+  </data>
+  <data name="act3" xml:space="preserve">
+    <value>Add Parthner</value>
+  </data>
+  <data name="act4" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="add1" xml:space="preserve">
+    <value>Add New Person</value>
+  </data>
+  <data name="add2" xml:space="preserve">
+    <value>Enter Name</value>
+  </data>
+  <data name="add3" xml:space="preserve">
+    <value>Enter Surname </value>
+  </data>
+  <data name="add4" xml:space="preserve">
+    <value>Enter Date Of Birth</value>
+  </data>
+  <data name="add5" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="add6" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="add7" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="btnAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="btnMain" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
+  <data name="btnOpt" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnTouch" xml:space="preserve">
+    <value>Touch</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="choose1" xml:space="preserve">
+    <value>↓ Choose something ↓</value>
+  </data>
+  <data name="choose2" xml:space="preserve">
+    <value>Choose an action</value>
+  </data>
+  <data name="d1" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="ent1" xml:space="preserve">
+    <value>Enter new Surname</value>
+  </data>
+  <data name="ent2" xml:space="preserve">
+    <value>Enter new Name</value>
+  </data>
+  <data name="ent3" xml:space="preserve">
+    <value>Enter new Date of Birth</value>
+  </data>
+  <data name="inf1" xml:space="preserve">
+    <value>Parents</value>
+  </data>
+  <data name="inf2" xml:space="preserve">
+    <value>Children</value>
+  </data>
+  <data name="inf3" xml:space="preserve">
+    <value>Siblings</value>
+  </data>
+  <data name="inf4" xml:space="preserve">
+    <value>Grandparents</value>
+  </data>
+  <data name="inf5" xml:space="preserve">
+    <value>Cousins</value>
+  </data>
+  <data name="inf6" xml:space="preserve">
+    <value>Parthner</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="op1" xml:space="preserve">
+    <value>LightSide/DarkSide</value>
+  </data>
+  <data name="op2" xml:space="preserve">
+    <value>English/Russian</value>
+  </data>
+  <data name="opt1" xml:space="preserve">
+    <value>Background color section</value>
+  </data>
+  <data name="opt2" xml:space="preserve">
+    <value>Language section</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Enter your search key...</value>
+  </data>
+  <data name="t1" xml:space="preserve">
+    <value>Social poll</value>
+  </data>
+  <data name="t2" xml:space="preserve">
+    <value>How are you feeling?</value>
+  </data>
+  <data name="t3" xml:space="preserve">
+    <value>Exelent :D</value>
+  </data>
+  <data name="t4" xml:space="preserve">
+    <value>Bad :C</value>
+  </data>
+  <data name="w1" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="w2" xml:space="preserve">
+    <value>There are empty fields!</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

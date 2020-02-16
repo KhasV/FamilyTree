@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyTree.AddPersonPage"
+             x:Name="AddPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="NameEntry" HorizontalOptions="FillAndExpand"></Entry>
+            <Entry x:Name="SNameEntry" HorizontalOptions="FillAndExpand"></Entry>
+            <Entry x:Name="DateOfBirthEntry" HorizontalOptions="FillAndExpand"></Entry>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label x:Name="lMale" VerticalOptions="CenterAndExpand"></Label>
+                <Switch x:Name="SexSwitch" IsToggled="False" ></Switch>
+                <Label x:Name="lFemale" VerticalOptions="CenterAndExpand"></Label>
+            </StackLayout>
+
+            <Button x:Name="CreateButton" HorizontalOptions="CenterAndExpand" Clicked="CreateButton_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

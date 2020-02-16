@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ab1" xml:space="preserve">
+    <value>Добро пожаловать в GreenTree App!</value>
+    <comment>Welcome to the GreenTree App!</comment>
+  </data>
+  <data name="ab2" xml:space="preserve">
+    <value>Это приложение было разработано Хасановой Варварой с использованием фреймворка
+Xamarin.Forms, целью которого является создание кроссплатформенных приложений для Android, iOS и Windows 10.</value>
+    <comment>This application was created by Khasanova Varvara using the framework
+Xamarin.Forms, which aims to create cross-platform applications for Android, iOS and Windows 10.</comment>
+  </data>
+  <data name="act1" xml:space="preserve">
+    <value>Информация</value>
+    <comment>Information</comment>
+  </data>
+  <data name="act2" xml:space="preserve">
+    <value>Добавить ребёнка</value>
+    <comment>Add Child</comment>
+  </data>
+  <data name="act3" xml:space="preserve">
+    <value>Добавить партнёра</value>
+    <comment>Add Parthner</comment>
+  </data>
+  <data name="act4" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="add1" xml:space="preserve">
+    <value>Добавление нового человека</value>
+    <comment>Add New Person</comment>
+  </data>
+  <data name="add2" xml:space="preserve">
+    <value>Введите имя</value>
+    <comment>Enter Name</comment>
+  </data>
+  <data name="add3" xml:space="preserve">
+    <value>Введите фамилию</value>
+    <comment>Enter Surname</comment>
+  </data>
+  <data name="add4" xml:space="preserve">
+    <value>Введите дату рождения</value>
+    <comment>Enter Date Of Birth</comment>
+  </data>
+  <data name="add5" xml:space="preserve">
+    <value>Мужчина</value>
+    <comment>Male</comment>
+  </data>
+  <data name="add6" xml:space="preserve">
+    <value>Женщина</value>
+    <comment>Female</comment>
+  </data>
+  <data name="add7" xml:space="preserve">
+    <value>Создать</value>
+    <comment>Create</comment>
+  </data>
+  <data name="btnAbout" xml:space="preserve">
+    <value>Инфо</value>
+    <comment>About</comment>
+  </data>
+  <data name="btnMain" xml:space="preserve">
+    <value>Главная</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="btnOpt" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>Options</comment>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Поиск</value>
+    <comment>Search</comment>
+  </data>
+  <data name="btnTouch" xml:space="preserve">
+    <value>Тык</value>
+    <comment>Touch</comment>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="choose1" xml:space="preserve">
+    <value>↓ Выберите что-нибудь ↓</value>
+    <comment>↓ Choose something ↓</comment>
+  </data>
+  <data name="choose2" xml:space="preserve">
+    <value>Выберите действие</value>
+    <comment>Choose an action</comment>
+  </data>
+  <data name="d1" xml:space="preserve">
+    <value>Вы уверены?</value>
+    <comment>Are you sure?</comment>
+  </data>
+  <data name="ent1" xml:space="preserve">
+    <value>Введите новую фамилию</value>
+    <comment>Enter new Surname</comment>
+  </data>
+  <data name="ent2" xml:space="preserve">
+    <value>Введите новое имя</value>
+    <comment>Enter new Name</comment>
+  </data>
+  <data name="ent3" xml:space="preserve">
+    <value>Введите новую дату рождения</value>
+    <comment>Enter new Date of Birth</comment>
+  </data>
+  <data name="inf1" xml:space="preserve">
+    <value>Родители</value>
+    <comment>Parents</comment>
+  </data>
+  <data name="inf2" xml:space="preserve">
+    <value>Дети</value>
+    <comment>Children</comment>
+  </data>
+  <data name="inf3" xml:space="preserve">
+    <value>Братья/Сёстры</value>
+    <comment>Siblings</comment>
+  </data>
+  <data name="inf4" xml:space="preserve">
+    <value>Бабушки/Дедушки</value>
+    <comment>Grandparents</comment>
+  </data>
+  <data name="inf5" xml:space="preserve">
+    <value>Двоюродные Братья/Сёстры</value>
+    <comment>Cousins</comment>
+  </data>
+  <data name="inf6" xml:space="preserve">
+    <value>Партнёры</value>
+    <comment>Parthner</comment>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Нет</value>
+    <comment>No</comment>
+  </data>
+  <data name="op1" xml:space="preserve">
+    <value>Светлая тема/Тёмная тема</value>
+    <comment>LightSide/DarkSide</comment>
+  </data>
+  <data name="op2" xml:space="preserve">
+    <value>Английский/Русский</value>
+    <comment>English/Russian</comment>
+  </data>
+  <data name="opt1" xml:space="preserve">
+    <value>Панель выбора цвета темы приложения</value>
+    <comment>Background color section</comment>
+  </data>
+  <data name="opt2" xml:space="preserve">
+    <value>Панель выбора языка приложения</value>
+    <comment>Language section</comment>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Введите символы для поиска</value>
+    <comment>Enter your search key...</comment>
+  </data>
+  <data name="t1" xml:space="preserve">
+    <value>Социальный опрос</value>
+    <comment>Social poll</comment>
+  </data>
+  <data name="t2" xml:space="preserve">
+    <value>Как настроение?</value>
+    <comment>How are you feeling?</comment>
+  </data>
+  <data name="t3" xml:space="preserve">
+    <value>Прекрасное :D</value>
+    <comment>Exelent :D</comment>
+  </data>
+  <data name="t4" xml:space="preserve">
+    <value>Не очень :C</value>
+    <comment>Bad :C</comment>
+  </data>
+  <data name="w1" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="w2" xml:space="preserve">
+    <value>Заполните пустые поля!</value>
+    <comment>There are empty fields</comment>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Да</value>
+    <comment>Yes</comment>
+  </data>
+</root>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyTree.Options"
+             x:Name="OptPAge">
+    <ContentPage.Content>
+        <TableView Intent="Settings">
+            <TableRoot>
+                <TableSection x:Name="sec1">
+                    <SwitchCell x:Name="SwitchCell1" OnChanged="Switch1_Toggled"/>
+                </TableSection>
+
+                <TableSection x:Name="sec2">
+                    <SwitchCell x:Name="SwitchCell2" OnChanged="Switch2_Toggled"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

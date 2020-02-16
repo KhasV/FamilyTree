@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FamilyTree"
+             x:Class="FamilyTree.ShablonPage">
+    <ContentPage.Content>
+        <ListView x:Name="ListView1" ItemsSource="{Binding Persons}"
+            HasUnevenRows="True"
+                      Margin="40,40">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell x:Name="ViewCell2" Tapped="ViewCell_Tapped"  >
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout x:Name="Stack1" >
+                                <StackLayout  Orientation="Horizontal" >
+                                    <Label Text="{Binding Sname}"></Label>
+                                    <Label Text="{Binding Name}"></Label>
+                                </StackLayout>
+                                <Label Text="{Binding Birth}"></Label>
+                            <!--   <BoxView x:Name="Box1" WidthRequest="10" ></BoxView> -->
+                                
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand">
+                                <Image Source="boom.png" HeightRequest="15" WidthRequest="15" HorizontalOptions="End" VerticalOptions="Center" Margin="0, 0, 3, 0"></Image>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
